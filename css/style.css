@@ -9,13 +9,13 @@ body {
 }
 
 .first_page {
-    background: url(../images/image1.png) no-repeat 100% fixed;
+    background: url(../images/image1.jpg) no-repeat 100% fixed;
     /*background-repeat: no-repeat;*/
     background-size: cover;
     background-position: right;
     /*height: 95vh;
     width: 100vw;*/
-    height: 610px;
+    height: 673px;
 }
 
 .first_pags {
@@ -67,6 +67,15 @@ span.first_page_innr1_1 {
 
 span.first_page_innr1_2 {
     margin-left: 20.5%;
+}
+i.fa.fa-angle-down.fa-2x{
+        position: absolute;
+    bottom: .5em;
+    color: white;
+    font-weight: 600;
+}
+.blink {
+    transition: color 1s;
 }
 
 span.first_page_innr1_3 {

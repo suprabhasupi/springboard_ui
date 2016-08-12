@@ -43,9 +43,10 @@
                 <p class="roboto_itallic first_page_innr1_a">Before Springboard:<span class="first_page_innr1_3 roboto_reg">Early Stage Researcher (PhD)</span></p>
             </div>
         </div>
+       <a data-scroll data-options='{ "easing": "linear" }' href="#second_page" > <i class="fa fa-angle-down fa-2x blink" aria-hidden="true"></i></a>
     </div>
     <!-- ---------------------------------second page------------------------------ -->
-    <div class="second_page">
+    <div class="second_page" id="second_page">
         <div class="second_page_inner">
             <p class="roboto_itallic second_page_txt wow fadeInUp"><img src="images/image6.png" class="image_comma"> SlideRule is a wonderful stepping stone to get to your goals in Data Science. They show you that there are people doing amazing things all over the place, and that you can be one of them too.<img src="images/image7.png" class="image_comma1"></p>
         </div>
@@ -66,7 +67,7 @@
     </div>
     <!-- ---------------------------------Fourth page------------------------------ -->
     <div class="fourth_page">
-        <img src="images/image4.png" class="fourth_page_inner wow zoomIn">
+        <img src="images/image4.jpg" class="fourth_page_inner wow zoomIn">
     </div>
     <!-- ---------------------------------Fifth page------------------------------ -->
     <div class="fifth_page">
@@ -171,6 +172,24 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+     <script type="text/javascript">
+                    var blink = function() {
+                        $('.blink').animate({
+                            opacity: '0'
+                        }, function() {
+                            $(this).animate({
+                                opacity: '1'
+                            }, blink);
+                        });
+                    }
+
+                    blink();
+                    </script>
+                    <script>
+            smoothScroll.init();
+</script>
 </body>
 
 </html>
