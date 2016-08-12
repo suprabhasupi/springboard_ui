@@ -9,8 +9,8 @@ body {
 }
 
 .first_page {
-    background-image: url(../images/image1.png);
-    background-repeat: no-repeat;
+    background: url(../images/image1.png) no-repeat 100% fixed;
+    /*background-repeat: no-repeat;*/
     background-size: cover;
     background-position: right;
     /*height: 95vh;
